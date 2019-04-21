@@ -1,0 +1,50 @@
+{
+  "name": "@com.haina.web/haina-lib",
+  "version": "2.1.8",
+  "description": "haina-lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepare": "gulp lib && gulp es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@60.205.162.223:com.haina.web/haina-lib.git"
+  },
+  "keywords": [
+    "haina-lib"
+  ],
+  "author": "sunlandong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "pako": "^1.0.6",
+    "wepy-plugin-axios": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp.spritesmith": "^6.5.1",
+    "mobx": "^3.3.1",
+    "mocha": "^5.1.1",
+    "run-sequence": "^2.1.0",
+    "typescript": "^2.5.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
